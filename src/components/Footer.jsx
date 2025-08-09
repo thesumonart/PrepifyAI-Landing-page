@@ -51,14 +51,14 @@ const Footer = () => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M5.58323 0.057C6.59656 0.0110833 6.91996 0 9.5 0C12.08 0 12.4034 0.0110833 13.4168 0.057C14.9613 0.127458 16.317 0.505875 17.4056 1.59442C18.4945 2.68335 18.8725 4.03948 18.943 5.58323C18.9889 6.59656 19 6.91996 19 9.5C19 12.08 18.9889 12.4034 18.943 13.4168C18.8725 14.9613 18.4941 16.317 17.4056 17.4056C16.3166 18.4945 14.9601 18.8725 13.4168 18.943C12.4034 18.9889 12.08 19 9.5 19C6.91996 19 6.59656 18.9889 5.58323 18.943C4.03869 18.8725 2.68296 18.4941 1.59442 17.4056C0.505479 16.3166 0.127458 14.9605 0.057 13.4168C0.0110833 12.4034 0 12.08 0 9.5C0 6.91996 0.0110833 6.59656 0.057 5.58323C0.127458 4.03869 0.505875 2.68296 1.59442 1.59442C2.68335 0.505479 4.03948 0.127458 5.58323 0.057ZM13.3388 1.767C12.3369 1.72108 12.0365 1.71158 9.5 1.71158C6.9635 1.71158 6.66306 1.72148 5.66121 1.767C4.58019 1.81648 3.57675 2.033 2.80487 2.80487C2.033 3.57675 1.81648 4.58019 1.767 5.66121C1.72108 6.66306 1.71158 6.9635 1.71158 9.5C1.71158 12.0365 1.72148 12.3369 1.767 13.3388C1.81648 14.4198 2.033 15.4233 2.80487 16.1951C3.57675 16.967 4.58019 17.1835 5.66121 17.233C6.66267 17.2789 6.9631 17.2884 9.5 17.2884C12.0369 17.2884 12.3373 17.2785 13.3388 17.233C14.4198 17.1835 15.4233 16.967 16.1951 16.1951C16.967 15.4233 17.1835 14.4198 17.233 13.3388C17.2789 12.3369 17.2884 12.0365 17.2884 9.5C17.2884 6.9635 17.2785 6.66306 17.233 5.66121C17.1835 4.58019 16.967 3.57675 16.1951 2.80487C15.4233 2.033 14.4198 1.81648 13.3388 1.767Z"
         fill="currentColor"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M5.18164 9.93164C5.18164 7.30843 7.30804 5.18164 9.93164 5.18164C12.5552 5.18164 14.6816 7.30804 14.6816 9.93164C14.6816 12.5552 12.5552 14.6816 9.93164 14.6816C7.30804 14.6816 5.18164 12.5549 5.18164 9.93164ZM6.84823 9.93164C6.84823 11.6345 8.22883 13.0151 9.93164 13.0151C11.6345 13.0151 13.0151 11.6345 13.0151 9.93164C13.0151 8.22883 11.6345 6.84823 9.93164 6.84823C8.22883 6.84823 6.84823 8.22883 6.84823 9.93164Z"
         fill="currentColor"
       />
@@ -77,8 +77,8 @@ const Footer = () => {
       fill="none"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M0.791667 0H18.2083C18.6438 0 19 0.35625 19 0.791667V18.2083C19 18.6438 18.6438 19 18.2083 19H0.791667C0.35625 19 0 18.6438 0 18.2083V0.791667C0 0.35625 0.35625 0 0.791667 0ZM2.81042 16.1896H5.62083V7.125H2.81042V16.1896ZM4.23542 5.89792C3.325 5.89792 2.6125 5.18542 2.6125 4.275C2.6125 3.36458 3.325 2.65208 4.23542 2.65208C5.14583 2.65208 5.85833 3.36458 5.85833 4.275C5.85833 5.14583 5.14583 5.89792 4.23542 5.89792ZM13.3792 16.1896H16.15V11.2021C16.15 8.74792 15.6354 6.8875 12.7854 6.8875C11.4396 6.8875 10.4896 7.63958 10.1333 8.35208H10.0938V7.125H7.40208V16.1896H10.2125V11.7167C10.2125 10.5292 10.45 9.38125 11.9146 9.38125C13.3792 9.38125 13.3792 10.7271 13.3792 11.7958V16.1896Z"
         fill="currentColor"
       />
@@ -92,81 +92,37 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div>
-            <h4 className="text-black-primary/70 mb-5 text-sm md:text-[15px]">
-              Company
-            </h4>
-            <ul className="space-y-2 text-base md:text-[17px] text-black-primary leading-loose">
-              <li>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  About us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  Contact us
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-black-primary/70 mb-5 text-sm md:text-[15px]">
-              Product
-            </h4>
-            <ul className="space-y-2 text-base md:text-[17px] text-black-primary leading-loose">
-              <li>
-                <button
-                  onClick={() => scrollToSection("features")}
-                  className="hover:text-gray-900 transition-colors text-left"
-                >
-                  Features
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection("pricing")}
-                  className="hover:text-gray-900 transition-colors text-left"
-                >
-                  Pricing
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-black-primary/70 mb-5 text-sm md:text-[15px]">
-              Legal
-            </h4>
-            <ul className="space-y-2 text-base md:text-[17px] text-black-primary leading-loose">
-              <li>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  Terms & Conditions
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-black-primary/70 mb-5 text-sm md:text-[15px]">
-              Contact us
-            </h4>
-            <ul className="space-y-2 text-base md:text-[17px] text-black-primary leading-loose">
-              <li>
-                <a
-                  href="mailto:prepifyai@gmail.com"
-                  className="text-blue-primary"
-                >
-                  prepifyai@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
+          {footerData.map((section) => (
+            <div key={section.title}>
+              <h4 className="text-black-primary/70 mb-5 text-sm md:text-[15px]">
+                {section.title}
+              </h4>
+              <ul className="space-y-2 text-base md:text-[17px] text-black-primary leading-loose">
+                {section.links.map((link) => (
+                  <li key={link.label}>
+                    {link.type === "button" ? (
+                      <button
+                        onClick={() => scrollToSection(link.sectionId)}
+                        className="hover:text-gray-900 transition-colors text-left"
+                      >
+                        {link.label}
+                      </button>
+                    ) : (
+                      <a
+                        href={link.href}
+                        className={
+                          link.className ||
+                          "hover:text-gray-900 transition-colors"
+                        }
+                      >
+                        {link.label}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
 
         <div className="border-t border-stroke-primary mt-12 pt-8 flex md:flex-row justify-between items-center">
@@ -212,3 +168,37 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const footerData = [
+  {
+    title: "Company",
+    links: [
+      { label: "About us", href: "#" },
+      { label: "Contact us", href: "#" },
+    ],
+  },
+  {
+    title: "Product",
+    links: [
+      { label: "Features", type: "button", sectionId: "features" },
+      { label: "Pricing", type: "button", sectionId: "pricing" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms & Conditions", href: "#" },
+    ],
+  },
+  {
+    title: "Contact us",
+    links: [
+      {
+        label: "prepifyai@gmail.com",
+        href: "mailto:prepifyai@gmail.com",
+        className: "text-blue-primary",
+      },
+    ],
+  },
+];
