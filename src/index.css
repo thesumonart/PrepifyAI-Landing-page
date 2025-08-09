@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import "tailwindcss";
+
+@theme inline {
+  /* Fonts */
+  --font-questrial: "Questrial", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
+
+  /* Colors */
+  --color-blue-primary: #473bf0;
+  --color-black-primary: #161c2d;
+  --color-green-primary: #68d585;
+  --color-background-primary: #fcfdfe;
+  --color-background-secondary: #f4f7fa;
+  --color-stroke-primary: #e7e9ed;
+}
+
+.container-fluid {
+  @apply max-w-[1600px] mx-auto;
+}
