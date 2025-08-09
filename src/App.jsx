@@ -6,6 +6,7 @@ import Statistics from "./components/Statistics";
 import GetHiredFaster from "./components/GetHiredFaster";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <GetHiredFaster />
       <Testimonials />
       <Pricing />
+      <Footer />
     </div>
   );
 };

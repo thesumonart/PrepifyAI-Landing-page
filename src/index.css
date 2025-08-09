@@ -23,6 +23,11 @@
   --color-white-tertiary: #f4f0ff;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 77px;
+}
+
 .container-fluid {
   @apply max-w-[1600px] mx-auto;
 }
