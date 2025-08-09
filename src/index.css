@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 @import "tailwindcss";
 
@@ -7,6 +9,8 @@
   /* Fonts */
   --font-questrial: "Questrial", sans-serif;
   --font-rubik: "Rubik", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
 
   /* Colors */
   --color-blue-primary: #473bf0;
@@ -15,6 +19,8 @@
   --color-background-primary: #fcfdfe;
   --color-background-secondary: #f4f7fa;
   --color-stroke-primary: #e7e9ed;
+  --color-white-secondary: #efedfd;
+  --color-white-tertiary: #f4f0ff;
 }
 
 .container-fluid {

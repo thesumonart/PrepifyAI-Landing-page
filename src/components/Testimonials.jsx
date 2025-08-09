@@ -1,3 +1,5 @@
+import React from "react";
+
 const Testimonials = () => {
   const testimonials = [
     {
@@ -28,9 +30,8 @@ const Testimonials = () => {
       <div className="container-fluid px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-8 ">
           {testimonials.map((testimonial, index) => (
-            <>
+            <React.Fragment key={index}>
               <div
-                key={index}
                 className={`flex flex-col items-center text-center relative w-full justify-between`}
               >
                 <img
@@ -50,7 +51,7 @@ const Testimonials = () => {
               {index !== testimonials.length - 1 && (
                 <div className=" md:w-[1px] md:h-40 bg-stroke-primary md:mt-[94px] md:m-0 w-3/4 h-px mx-auto" />
               )}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
