@@ -1,6 +1,13 @@
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="pt-[146px] pb-16 ">
       <div className="container-fluid px-4">
@@ -27,16 +34,10 @@ const Hero = () => {
             </button>
             <button
               type="button"
-              className=" rounded-lg hover:bg-blue-primary/20 transition-colors border border-transparent w-fit"
+              onClick={() => scrollToSection("get-started")}
+              className="text-black-primary px-6 py-3.5 text-[17px] flex items-center gap-10 tracking-[-0.6px] rounded-lg hover:bg-blue-primary/20 transition-colors border border-transparent w-fit cursor-pointer"
             >
-              <a
-                href="https://prepify.win"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black-primary px-6 py-3.5 text-[17px] w-fit flex items-center gap-10 tracking-[-0.6px]"
-              >
-                Learn more
-              </a>
+              Learn more
             </button>
           </div>
 

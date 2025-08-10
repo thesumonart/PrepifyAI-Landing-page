@@ -2,7 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 const GetStarted = () => {
   return (
-    <section className="pt-[91px] pb-20 bg-background-secondary">
+    <section
+      id="get-started"
+      className="pt-[91px] pb-20 bg-background-secondary"
+    >
       <div className=" px-4">
         <div className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-32 items-center">
           <div className="flex flex-col text-center items-center sm:max-w-[80%] mx-auto lg:items-start lg:max-w-full lg:text-start lg:m-0">
