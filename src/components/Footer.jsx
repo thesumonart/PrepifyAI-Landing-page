@@ -147,14 +147,14 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/prepifyai/"
                 className="text-black-primary/40 hover:text-blue-primary/100 transition-colors"
               >
                 <Instagram fill="currentColor" className="w-5 h-5" />
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/company/prepify-ai/"
                 className="text-black-primary/40 hover:text-blue-primary/100 transition-colors"
               >
                 <LinkedIn fill="currentColor" className="w-5 h-5" />
