@@ -61,7 +61,7 @@ const GetHiredFaster = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top top",
+          start: "top -=6%",
           end: () => `+=${steps.length * window.innerHeight * 0.6}`,
           scrub: true,
           pin: true,
